@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url('images/noaa-ieWHXjjAEwY-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: none;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.input input {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 200px;
+    background-color: rgba(224, 216, 216, 0.8);
+    color: black;
+}
+
+.input button {
+    padding: 10px;
+    background-color: #0099ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+
+.input button:hover {
+    background-color: #007bb5;
+}
+
+.weather-box {
+    height: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.weather {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.temperature {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.description, .humidity, .wind {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
